@@ -5,7 +5,7 @@ input_number = int(input())
  
 if input_number > 0:
     print(input_number,'is positive')
-    elif input_number < 0:
-        print(f'{input_number} is negstive')
+elif input_number < 0:
+     print(f'{input_number} is negstive')
 else:
     print('The input number is zero')
