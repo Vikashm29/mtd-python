@@ -1,0 +1,10 @@
+TYPES OF ERROR
+
+1 Type error
+eg: abc+45 occured due to typing mistake
+
+2 Zero division error
+eg: 22/0 where 22/0 is not defined
+
+3 Index error
+ When the given indexis in the rage.
