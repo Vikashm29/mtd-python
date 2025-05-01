@@ -1,13 +1,13 @@
 # smallest of 3 numbers
 
-num1 = int (input("enter num1"))
-num2 = int (input("enter num2"))
-num3 = int (input("enter num3"))
+num1 = 30
+num2 = 45
+num3 = 25
 
-if num1 < num2 and num1 < num3 :
-    print(num1 smallest of 3 numbers)
-elif num2 < num1 and num2 < num3 :
-    print(num2 smallest of 3 numbers)
+if num1 <= num2 and num1 <= num3 :
+    print('The smallest number is:',num1)
+elif num2 <= num1 and num2 <= num3 :
+    print('The smallest number is:',num2)
 else:
-    print(num3 smallest of 3 numbers)
+    print('The smallest number is:',num3)
 
