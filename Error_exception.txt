@@ -8,3 +8,6 @@ eg: 22/0 where 22/0 is not defined
 
 3 Index error
  When the given indexis in the rage.
+  
+4 Valuve error
+  When an entered vale is not correct.
