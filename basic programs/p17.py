@@ -1,6 +1,4 @@
 number_of_line = int(input('Enter number of line in x in a hollow square:'))
-if number_of_line < 3 or number_of_line % 2 == 0:
-     print("Please enter an odd number greater than or equal to 3.")
 
 for i in range(number_of_line):
         for j in range(number_of_line):
