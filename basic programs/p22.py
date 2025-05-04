@@ -1,6 +1,7 @@
-user_input = input('stock and area pincode is avilable or not(YES or NO):')
+stock_available = input("The product is available? (Yes/No):").strip().lower()
+area_pincode = input("The product is available in that area?: (Yes/No)").strip().lower()
 
-if 'stock and area pincode is available':
-    print('\n YES')
-elif 'stock and area pincode is not available':
-    print('\n NO')
+if stock_available == 'yes' and area_pincode == 'yes':
+    print("The product is available")
+else:
+    print("The product is not available")

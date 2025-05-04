@@ -1,1 +1,14 @@
 DOUBTS IN PYTHON.
+1. whats the problem here?
+book_ticket = input('if seats are available or unavailable then it is (confirmed or waiting list):')
+
+if book_ticket == 'confirmed' and book_ticket == 'waiting list': 
+    print('The seats are avilable')
+else:
+    print('The seats are not available')
+
+show_status = input('Enter the book_ticket status:')
+if show_status == 'confirmed' or show_status == 'waiting list': 
+    print('confirmed')
+else:
+    print('not confirmed')
