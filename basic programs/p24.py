@@ -6,10 +6,10 @@
 >If the member is a registered member.
 '''
 
-shopping_value = input('Enter the total value(in rs.):')
+shopping_value = float(input('Enter the total value(in rs.):'))
 registered_member = input('A registered member (yes/no):').lower()
 
-if shopping_value > 1000 and registered_member =='yes':
+if shopping_value >= 1000 and registered_member =='yes':
     print('Member is elligible for the Special Discount!')
 else:
-    print('Sorry your eligible for Special Discount')
+    print('Member is  not eligible for the Special Discount')
