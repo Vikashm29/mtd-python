@@ -14,6 +14,4 @@ book_ticket = input('if seats are available or unavailable then it is (confirmed
 if book_ticket == 'confirmed' and book_ticket == 'waiting list': 
     print('The seats are avilable')
 else:
-    print('The seats are unavailable')
-
-      
+    print('The seats are unavailable')    
