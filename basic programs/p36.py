@@ -5,7 +5,7 @@ conditions:
 3) Iftemperature is >=20 and <30 it will be warm
 4) Iftemperature is >=10 and <20 it is cool
 5) Iftemperature is <10 then it is cold
-6) Iftemperature is equal to 0 the it is freezing cold
+6) Iftemperature is equal to 0 then it is freezing cold
 
 Tracing:
 1) temperature = 0
@@ -46,17 +46,17 @@ Output: "Weather is Cold
 
 temperature = float(input(f"Enter the temperature of the day: "))
 
-for i in range(1, 8):
-    if temperature == 0:
-        print("Weather is Freezing Cold")
-    elif temperature > 0 and temperature < 10:
-        print("Weather is Cold")
-    elif temperature >= 10 and temperature < 20:
-        print("Weather is Cool")
-    elif temperature >= 20 and temperature < 30:
-        print("Weather is Warm")
-    elif temperature >= 30 and temperature < 40:
-        print("Weather is Hot")
-    else:
-        print("Weather is Very Hot")
-    break
+
+if temperature == 0:
+    print("Weather is Freezing Cold")
+elif temperature > 0 and temperature < 10:
+    print("Weather is Cold")
+elif temperature >= 10 and temperature < 20:
+    print("Weather is Cool")
+elif temperature >= 20 and temperature < 30:
+    print("Weather is Warm")
+elif temperature >= 30 and temperature < 40:
+    print("Weather is Hot")
+else:
+    print("Weather is Very Hot")
+    

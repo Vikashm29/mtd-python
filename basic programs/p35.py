@@ -1,5 +1,6 @@
+number = int(input(f"Enter number: "))
+
 for i in range(1, 21):
-    number = int(input(f"Enter number {i}: "))
     print("Number:", number)
 
     if number % 2 == 0:
@@ -16,3 +17,5 @@ for i in range(1, 21):
             print("The number is less than ten")
         else:
             print("The number is greater than 10")
+    break
+    
