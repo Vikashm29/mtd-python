@@ -8,14 +8,13 @@ fruits = {
     'c' : 'Coconut' 
 }
 
-for key , value in fruits.items():
-    print(fruits)
+print(fruits)
 
-    fruits['d'] = 'Dragon Fruit'
-    print(fruits)
+fruits['d'] = 'Dragon Fruit'
+print(fruits)
 
-    fruits.update({'a' : 'Avocado'})
-    print(fruits)
+fruits.update({'a' : 'Avocado'})
+print(fruits)
 
-    fruits.pop('c')
-    print(fruits)
+fruits.pop('c')
+print(fruits)
