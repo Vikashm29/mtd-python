@@ -1,5 +1,5 @@
 '''
-Method	Description
+    Method	        Description
 
 1.  clear()->	    Removes all the elements from the dictionary
 
