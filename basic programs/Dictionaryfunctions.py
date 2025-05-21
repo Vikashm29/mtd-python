@@ -23,3 +23,48 @@
 
 11. values()->	    Returns a list of all the values in the dictionary
 '''
+
+# get() method.
+d = {'Name': 'Vikas', 'Age': '19', 'Country': 'India'}
+print(d.get('Name'))
+print(d.get('Gender'))
+
+# items() method.
+d = {'Name': 'Vikas', 'Age': '19', 'Country': 'India'}
+print(list(d.items())[1][0])
+print(list(d.items())[1][1])
+
+# keys() method.
+d = {'Name': 'Vikas', 'Age': '19', 'Country': 'India'}
+print(list(d.keys()))
+
+# update() method.
+d1 = {'Name': 'Vikas', 'Age': '19', 'Country': 'India'}
+d2 = {'Name': 'shivu', 'Age': '22'}
+
+d1.update(d2)
+print(d1)
+
+# values() method.
+d = {'Name': 'Vikas', 'Age': '19', 'Country': 'India'}
+print(list(d.values()))
+
+# pop() method.
+d = {'Name': 'Vikas', 'Age': '19', 'Country': 'India'}
+d.pop('Age')
+print(d)
+
+# popitem() method.
+d = {1: 'Vikas', 2: 'Shivu', 3: 'Darshan'}
+res = d.popitem()
+print(res)
+print(d)
+
+# copy() method.
+d = {1:'Vikas', 2:'Shivu'}
+d3 = d.copy()
+
+# setdefault() method.
+d = {1: 'Vikas', 2: 'Shivu', 3: 'Darshan'}
+d.setdefault(' ', 'Ravi')
+print(d)
