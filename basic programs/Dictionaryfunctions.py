@@ -31,8 +31,8 @@ print(d.get('Gender'))
 
 # items() method.
 d = {'Name': 'Vikas', 'Age': '19', 'Country': 'India'}
-print(list(d.items())[1][0])
-print(list(d.items())[1][1])
+print(tuple(d.items())[0][1])
+print(tuple(d.items())[0][0])
 
 # keys() method.
 d = {'Name': 'Vikas', 'Age': '19', 'Country': 'India'}
@@ -64,7 +64,7 @@ print(d)
 d = {1:'Vikas', 2:'Shivu'}
 d3 = d.copy()
 
-# setdefault() method.
+1# setdefault() method.
 d = {1: 'Vikas', 2: 'Shivu', 3: 'Darshan'}
-d.setdefault(' ', 'Ravi')
+d.setdefault('', 'Ravi')
 print(d)
