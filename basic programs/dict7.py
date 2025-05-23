@@ -17,7 +17,3 @@ fruits = {
 
 fruits['Strawberry'] = 6
 print(fruits)
-
-def purchase(items,quantity):
-    if items in fruits:
-        print
